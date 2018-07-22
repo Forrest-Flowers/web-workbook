@@ -1,0 +1,53 @@
+body{
+  background-color:
+}
+
+article{
+  margin:10 5px;
+  width: 200px;
+  border: 2px solid black;
+  padding:20px;
+}
+
+#topnav {
+  margin: 20px 0 0;
+  width: 500%;
+  background-color: #73AD21;
+  border: 3px solid #73AD21;
+  padding:10px
+}
+#aboutme{
+  margin:2px 2px
+  border: 2px solid black;
+  word-wrap: normal;
+}
+#aboutme > p{
+  margin:10 5px !important;
+  width: 200px;
+  border: 2px solid black;
+  padding:10px;
+}
+
+.contact-icon {
+  position:absolute;
+  margin: 5px -5px 5px;
+  right: 0px;
+  padding:10px;
+}
+
+#soon > h1{
+  font-size: 1000%;
+  text-align:center;
+  color:white;
+}
+
+#pfp{
+  margin:10px 10px
+
+}
+
+
+
+
+
+}
