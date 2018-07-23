@@ -4,26 +4,21 @@ body{
 
 article{
   margin:10 5px;
-  width: 200px;
+  padding: 10px;
+  width: 175px;
   border: 2px solid black;
-  padding:20px;
 }
 
 #topnav {
-  margin: 20px 0 0;
   width: 500%;
   background-color: #73AD21;
   border: 3px solid #73AD21;
   padding:10px
 }
-#aboutme{
-  margin:2px 2px
-  border: 2px solid black;
-  word-wrap: normal;
-}
+
 #aboutme > p{
-  margin:10 5px !important;
-  width: 200px;
+  margin:10 5px;
+  width: 150px;
   border: 2px solid black;
   padding:10px;
 }
