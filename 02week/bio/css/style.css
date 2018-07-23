@@ -1,7 +1,6 @@
 body{
   background-color: grey;
 }
-
 article{
   text-align: center;
   margin:10 5px;
@@ -11,7 +10,9 @@ article{
   background-color:white;
   opacity: 0.5;
 }
-
+article > p{
+  font-size: 120%;
+}
 a:link, a:visited {
   background-color: #85807a;
   color: white;
@@ -20,25 +21,22 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-
 a:hover, a:active {
   background color: #006600;
   color:black;
 }
-
 button{
-  padding: 10px 30px;
+  padding: 3px 10px;
   float: left;
   width: auto;
   border: none;
-  display: block;
-  outline: 0;
   background-color:#85807a;
 }
-
 #topnav {
   width: 100%;
   background-color: #85807a;
+  margin: 10px 10px;
+  padding: 5px;
   border: 2px solid black;
 }
 #aboutme > p{
@@ -46,13 +44,7 @@ button{
   margin: 10px 10px;
   border: 2px solid black;
   padding:10px;
-  font-family: sans-serif;
 }
-
-.contact-icon {
-  padding:10px;
-}
-
 #pfp > img{
     border-radius: 50%;
     display: block;
