@@ -1,0 +1,36 @@
+body{
+  background-image: url("../img/airline.jpg");
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav{
+  background-color: #123754;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.links > li{
+  position: fixed;
+  top:0
+  right:0;
+  display: inline-block;
+}
+
+.logo{
+  position:fixed;
+  left:0;
+  height:auto;
+  width: 100%;
+
+}
+
+.box{
+  background-color: #123754;
+  
+}
+FONT=Lato
