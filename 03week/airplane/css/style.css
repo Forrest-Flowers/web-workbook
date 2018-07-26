@@ -1,36 +1,37 @@
 body{
-  background-image: url("../img/airline.jpg");
-  margin: 0 auto;
+  background: url("../img/airline.jpg")
+  no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .nav{
   background-color: #123754;
-  top: 0;
-  left: 0;
-  right: 0;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
   padding: 10px;
-  border-bottom: 1px solid white;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ffffff;
 }
 
 .links > li{
-  position: fixed;
-  top:0
-  right:0;
-  display: inline-block;
+  position: relative;
+  float:right;
 }
 
 .logo{
-  position:fixed;
-  left:0;
-  height:auto;
+  position: relative;
   width: 100%;
 
 }
 
 .box{
   background-color: #123754;
-  
+
 }
 FONT=Lato
