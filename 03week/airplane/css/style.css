@@ -9,19 +9,19 @@ body{
   background-color: #123754;
   background-size: cover;
   width: 100%;
-  position: absolute;
   margin: 0 auto;
   padding: 10px;
   display:flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
   border-bottom: 2px solid #ffffff;
 }
 
-.links > li{
-  position: relative;
+.links{
+  justify-content: space-between;
   float:right;
+  position: right;
+  display:flex;
+  flex-wrap: wrap;
+
 }
 
 .logo{
@@ -32,6 +32,24 @@ body{
 
 .box{
   background-color: #123754;
-
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+  position: relative;
 }
+
+.boxtabs > div{
+  height: 100px;
+  background-color: #018D80;
+  width: 33.33%;
+  border: 1px solid #018D80;
+  float: left;
+  box-sizing: border-box;
+}
+
+.boxtabs >img{
+  left:0
+  right:0
+}
+
 FONT=Lato
