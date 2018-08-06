@@ -1,0 +1,30 @@
+body{
+}
+
+#flex-box{
+  display:flex;
+}
+#nasa{
+  background-image:url(../img/nasa-background.jpg);
+  width:850px;
+  height:450px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-bottom:20px solid white;
+}
+
+#nasa > h1{
+  color:white;
+  font-family: "Roboto" sans-serif;
+  font-size:75;
+}
+
+#bottomflex{
+  display:flex;
+  justify-content:space-around;
+  background-color:lightgray;
+  width:850px;
+  height:324px;
+
+}
