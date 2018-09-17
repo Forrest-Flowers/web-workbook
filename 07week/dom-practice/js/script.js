@@ -15,7 +15,7 @@ window.onload = function(){
   newInput.innerHTML="Add Items"
   newInput.setAttribute('placeholder', "Type to add");
   let list = document.getElementsByTagName('ul');
-  cart[0].after(newInput);
+  count[0].after(newInput);
   newInput.setAttribute("id", "input-text");
 
   let newButton =
